@@ -1,0 +1,21 @@
+@import "./variables.scss";
+@import "./breakpoints.scss";
+
+.section-p1 {
+  padding: 40px 80px;
+}
+#contact-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#contact-details li {
+  list-style: none;
+  display: inline;
+}
+#contact-details .details h2 {
+  font-size: 28px;
+}
+#contact-details .details h3 {
+  font-size: 16px;
+}
